@@ -1,0 +1,12 @@
+# Exclude all hidden items by default
+.*
+
+# Explicitly exclude the terraform directory and its contents
+**/.terraform/
+*.tfstate
+*.tfvars
+*.terraform.lock.hcl
+
+# Do not ignore the ignore file itself
+!.gitignore
+
